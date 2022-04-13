@@ -13,4 +13,6 @@ BugReports: https://github.com/nguyenank/anRpackage/issues
 Imports: 
     dplyr,
     ggplot2,
-    magrittr
+    magrittr,
+    showtext,
+    sysfonts
