@@ -4,7 +4,10 @@
 \alias{theme_an}
 \title{Personal theme.}
 \usage{
-theme_an()
+theme_an(axes = TRUE)
+}
+\arguments{
+\item{axes}{whether to include axes or not}
 }
 \value{
 ggplot2 theme object
