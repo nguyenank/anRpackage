@@ -2,5 +2,6 @@
 
 export("%>%")
 export(an_colors)
+export(an_save)
 export(theme_an)
 importFrom(magrittr,"%>%")
