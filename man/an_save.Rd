@@ -9,7 +9,7 @@ an_save(filename, shape = "square")
 \arguments{
 \item{filename}{filename to save the file to}
 
-\item{shape}{options: "square", "hrect", "vrect"; default = "sqaure"}
+\item{shape}{options: "square", "hrect", "vrect"; default = "square"}
 }
 \value{
 nothing; saves a file at the specified filepath
@@ -18,6 +18,8 @@ nothing; saves a file at the specified filepath
 Wrapper for ggsave with some defaults.
 }
 \examples{
+\dontrun{
 an_save("test.png")
 an_save("test.png", shape = "hrect")
+}
 }

@@ -8,9 +8,6 @@
 #' @examples
 #' theme_an()
 theme_an <- function(axes = TRUE) {
-  sysfonts::font_add_google("Public Sans", "public_sans")
-  showtext::showtext_auto()
-
   base <- ggplot2::theme_void() +
     ggplot2::theme(
       text = ggplot2::element_text(family = "public_sans"),
