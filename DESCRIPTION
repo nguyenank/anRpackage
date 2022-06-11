@@ -11,6 +11,5 @@ RoxygenNote: 7.1.2
 URL: https://github.com/nguyenank/anRpackage
 BugReports: https://github.com/nguyenank/anRpackage/issues
 Imports: 
-    dplyr,
     ggplot2,
     magrittr

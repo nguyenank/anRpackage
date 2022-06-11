@@ -10,7 +10,7 @@
 theme_an <- function(axes = TRUE) {
   base <- ggplot2::theme_void() +
     ggplot2::theme(
-      text = ggplot2::element_text(family = "public_sans"),
+      text = ggplot2::element_text(family = "Public Sans"),
       plot.title = ggplot2::element_text(face = "bold", hjust = 0.5),
       plot.title.position = "plot",
       plot.subtitle = ggplot2::element_text(hjust = 0.5),
@@ -23,6 +23,7 @@ theme_an <- function(axes = TRUE) {
       plot.caption.position = "plot",
       plot.margin = ggplot2::margin(t = 1, r = 1, b = 1, l = 1, "char"),
       legend.title = ggplot2::element_text(face = "bold"),
+      strip.text = ggplot2::element_text(face="bold")
     )
 
   if (axes) {
